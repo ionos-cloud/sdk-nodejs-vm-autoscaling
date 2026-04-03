@@ -11,7 +11,9 @@
     ""
   ],
   "license": "MIT",
-  "files": [ "dist/**/*" ],
+  "files": [
+    "dist/**/*"
+  ],
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
@@ -19,7 +21,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "1.14.0"
   },
   "devDependencies": {
     "@types/node": "^12.11.5",
